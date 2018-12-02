@@ -32,12 +32,7 @@ client.on('message', message => {
 } else
 if (message.content.startsWith(adminprefix + 'setavatar')) {
   client.user.setAvatar(argresult);
-    message.channel.send(`Changing The Avatar To :**${argresult}** `)
-} else
-    if (message.content.startsWith(adminprefix + 'ss')) {
-  client.user.setActivity(argresult , {type:'CONECTING'});
-     message.channel.send(`SAJED   ${argresult}**`)
-} else
+    message.channel.send(`Changing The Avatar To :**${argresult}** `);
 }
 });
  
