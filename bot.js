@@ -37,6 +37,7 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
     if (message.content.startsWith(adminprefix + 'ss')) {
   client.user.setActivity(argresult , {type:'CONECTING'});
      message.channel.send(`SAJED   ${argresult}**`)
+} else
 }
 });
  
