@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+var prefix = "&é''(-('(è-è(-_è_ç";
 var adminprefix = "²"
 const developers = ["518049657926975492"]
 client.on('message', message => {
